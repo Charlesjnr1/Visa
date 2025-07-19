@@ -71,11 +71,7 @@
 
   <div class="container">
     <h2>📩 Contact Us</h2>
-    {% with messages = get_flashed_messages() %}
-      {% if messages %}
-        <p class="success">{{ messages[0] }}</p>
-      {% endif %}
-    {% endwith %}
+    
 
     <form method="POST" action="{{ url_for('contact') }}">
       <label>Full Name</label>
