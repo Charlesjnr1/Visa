@@ -1470,6 +1470,45 @@ a:focus {
   padding-left: 0;
   margin: 0;
 }
+/* Media Section Styles */
+.media-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.media-box {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.media-box img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.media-box:hover img {
+  transform: scale(1.03);
+}
+
+.media-caption {
+  padding: 20px;
+  background: white;
+}
+
+.media-caption h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.video-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 .benefits li, .requirements li, .extra-support li {
   padding: 5px 0 5px 26px;
   position: relative;
